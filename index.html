@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FunkyBeat</title>
-  <link rel="stylesheet" href="css/style.css" class="rel">
-
+  <link rel="stylesheet" href="/css/style.css" class="rel">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
   integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
   crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,12 +25,12 @@
           </div>
               
                 <ul class="nav-links">
-                  <li><a href="#" id="item">Home</a></li>
-                  <li><a href="#" id="item">About Us</a></li>
-                  <li><a href="#" id="item">Artists</a></li>
-                  <li><a href="#" id="item">Activities</a></li>
-                  <li><a href="#" id="item">Products</a></li>
-                  <li><a href="#" id="item">Contact Us</a></li>
+                  <li><a href="index.html" id="item">Home</a></li>
+                  <li><a href="templates/aboutus.html" id="item">About Us</a></li>
+                  <li><a href="templates/artists.html" id="item">Artists</a></li>
+                  <li><a href="templates/activities.html" id="item">Activities</a></li>
+                  <li><a href="templates/products.html" id="item">Products</a></li>
+                  <li><a href="templates/contact-us.html" id="item">Contact Us</a></li>
                 </ul>
                 <!--a href button-->
                 <div class="book-now-container">
@@ -118,6 +122,7 @@
           <div class="carousel-slide">
             <div class="inside-container">
                 <h3>Departure</h3>
+                <div class="image"></div>
                 <img class="fa-img" src="css/assets/image 1.png" alt="Departure">
             </div>
           </div>
@@ -208,21 +213,6 @@
       <hr class="hr-line">
     <div class="articles">
       <div class="article-container">
-        <!--<ul>
-          <li><b>Now Streaming: Filipino Remake of 'Keys To The Heart' on Netflix!</b>
-            <p>We're thrilled to announce the premiere of the heartwarming Filipino adaptation of 'Keys To The Heart' 
-              starring <br>Zanjoe Marudo, Dolly de Leon, and Elijah Canlas, with a special appearance by the Funkybeat Orchestra.</p>
-          </li>
-          <li><b>Trailer for Filipino Remake of 'Keys To The Heart' Now Available!</b>
-            <p>Get a glimpse of the highly anticipated Filipino adaptation of 'Keys To The Heart,' 
-              starring Zanjoe Marudo, Dolly<br> de Leon, and Elijah Canlas, with a special appearance by the Funkybeat Orchestra.</p>
-          </li>
-          <li><b>Building Memories: Funkybeat Team Gathers for a Day of Fun and Friendship!</b>
-            <p>We recently had a fantastic team-building event with our dear friends from Funkybeat Entertainment. 
-              It was a <br>day filled with laughter, bonding, and strengthening the bonds that make our team so special.</p>
-          </li>
-        </ul>-->
-
         <div class="myflex-container">
           <div class="myflex-item-left">
             <div class="clickable-card">
@@ -311,7 +301,6 @@
             </div>
           </div>
         </div>
-      </div>
 
     <!--CONTACT US HEADER-->
     <div class="black-header">
@@ -329,80 +318,86 @@
   </section>
 
     <!--CONTACT US SECTION-->
-    <section class="last-section">
-      <div class="hero-section">
-        <div class="overlap-group-cu">
-          <div class="qa"><p class="any-qa">Any question or remarks? Just write us a message!</p></div>
-            <div class="container">
-            
-              <div class="wrapper">
-            
-                <!-- COMPANY INFORMATION -->
-                <div class="company-info">
-                  <h2>Contact Information</h2>
-                  <p>Say something...</p>
-            
-                  <ul class="cu-links-logo">
-                    <li><i class="fa fa-phone"></i> 0915 886 3390</li>
-                    <li><i class="fa fa-envelope"></i> funkybeatent@gmail.com</li>
-                    <li><i class="fa fa-map-marker"></i> 3 Bignay St., Project 2, Quezon City, Philippines</li>
-                  </ul>
-
-                  <div class="soc-med-icons">
-
-                  </div>
-                </div>
-                <!-- End .company-info -->
-            
-                <!-- CONTACT FORM -->
-            
-                  <form>
-                    <div class="contact-row">
-                      <div class="input-group">
-                        <label>First Name</label>
-                        <input type="text" name="fname" id="fname" required>
-                      </div>
-                      <div class="input-group">
-                        <label>Last Name</label>
-                        <input type="text" name="lname" id="lname">
-                      </div>
-                    </div>
-
-                    <div class="contact-row">
-                      <div class="input-group">
-                        <label>E-mail Address</label>
-                        <input type="email" name="email" id="email" required>
-                      </div>
-                      <div class="input-group">
-                        <label>Phone Number</label>
-                        <input type="text" name="phone" id="phone">
-                      </div>
-                    </div>
-                    <div class="msg-row">
-                      <div class="msg-input">
-                        <label>Message</label>
-                    <textarea rows="5" placeholder="Write your message.."></textarea>
-                      </div>
-                    </div>
-                    
-                    <div class="btn-send-msg">
-                      <button class="send-msg">Send Message</button>
-                    </div>
-            
-                  </form>
-                  <!-- End #contact-form -->
-                </div>
-                <!-- End .contact -->
-            
-              </div>
-              <!-- End .wrapper -->
-            </div>
-            <!-- End .container -->
-        </div>
+  <div class="contact-container">
+    <div class="column" style="background-color: black;">
+      <h2>Contact Information</h2>
+      <p>Say Something...</p>
+      <div class="contact-info">
+        <div class="info-icon"><i class="material-icons">phone</i> <p>0915 886 3390</p></div>
+        <div class="info-icon"><i class="material-icons">email</i> <p>funkybeatent@gmail.com</p></div>
+        <div class="info-icon"><i class="material-icons">home</i> <p>3 Bignay St., Project 2, Quezon City, Philippines</p></div>
       </div>
-    </section>
+      <div class="contact-links">
+        <a href="#"><i class="fab fa-discord" style="font-size: 20px;"></i></a>
+        <a href="#"><i class="fab fa-twitter" style="font-size: 20px;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
+      </div>
+    </div>
+    <div class="column-input-form">
+      <form autocomplete="off">
+        <div class="row-input">
+          <div class="input-group">
+            <input type="text" id="fname" required>
+            <label for="name">First Name</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="lname" required>
+            <label for="name">Last Name</label>
+          </div>
+        </div>
 
+        <div class="row-input">
+          <div class="input-group">
+            <input type="email" id="email" required>
+            <label for="email">Email</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="number" required>
+            <label for="number">Phone</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required placeholder="Write Something..."></textarea>
+        </div>
+        <button class="button-27" role="button">Send Message</button>
+      </form>
+    </div>
+  </div>
+    
     <!--FOOTER-->
+    <footer class="footer">
+      <hr class="hr-line"><br><br>
+      <div class="container">
+       <div class="row">
+         <div class="footer-col" style="margin-right: 280px;">
+           <h4>Reach Us</h4>
+           <ul style="display:flex; flex-direction:column">
+             <li class="footer-links"><i class="material-icons">phone</i> <p>0915 886 3390</p></li>
+             <li class="footer-links"><i class="material-icons">email</i> <p>funkybeatent@gmail.com</p></li>
+             <li class="footer-links"><i class="material-icons">home</i> <p>3 Bignay St., Project 2, Quezon City, Philippines</p></li>
+           </ul>
+         </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Services</a></li>
+            </ul>
+          </div>
+
+         </div>
+
+         <!--flex end company and legal-->
+       </div>
+      </div>
+   </footer>
  
 </body>
 </html>
