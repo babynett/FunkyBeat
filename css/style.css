@@ -250,7 +250,8 @@ body{
     align-items: center;
     margin-right: 10px;
   }
-  .about-us .text-wrapper-as {
+  .about-us .text-wrapper-as,
+  .about-us .text-wrapper-founders{
     font-family: 'Days One', sans-serif;
     font-weight: 400;
     color: #161616;
@@ -260,6 +261,16 @@ body{
     line-height: normal;
     cursor: pointer;
   }
+  .about-us .text-wrapper-services{
+    font-family: 'Days One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    cursor: pointer;
+    color: white;
+}
   .about-us .rectangle {
     width: 6px;
     height: 29px;
@@ -804,6 +815,13 @@ img.imgoxauto {
   gap: 30px;
   padding: 20px 0 20px 0;
 }
+
+/*placement of contact us button*/
+.btn-position{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
 .button-27 {
   appearance: none;
   background-color: #000000;
@@ -828,7 +846,7 @@ img.imgoxauto {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
+  width: 50%;
   will-change: transform;
 }
 
@@ -864,11 +882,16 @@ input, textarea{
   width: 100%;
   padding: 10px;
   outline: 0;
-  border-bottom: 1px solid #000;
+  border: 0 none #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
   color: #000000;
   background: transparent;
   font-size: 15px;
   resize: none;
+}
+textarea{
+  height: 50px;
 }
 label{
   color: #000;
@@ -877,13 +900,13 @@ label{
   cursor: text;
   transition: 0.2s;
 }
-input:focus~label,
+/* input:focus~label,
 input:valid~label,
 textarea:focus~label,
 textarea:valid~label{
   top: -35px;
   font-size: 14px;
-}
+} */
 .row-input{
   display: flex;
   align-items: center;
@@ -984,6 +1007,17 @@ textarea:valid~label{
   align-items: center;
 }
 .about-us-content3{
+  background-image: linear-gradient(rgba(39, 38, 38, 0.9), rgba(45, 45, 45, 0.9)), url('/css/assets/about-us/Our Services BG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0 100px 0;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.about-us-founders{
   padding: 70px 0 100px 0;
   height: auto;
   width: 100%;
@@ -1002,15 +1036,19 @@ textarea:valid~label{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
-.circle-container{
+.circle-container, .service-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 20px 50px 20px 50px;
   width: 30%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.service-container{
+  background-color: #D9D9D9;
 }
 .circle{
   height: 250px;
@@ -1024,7 +1062,7 @@ textarea:valid~label{
   background-color: #000;
   margin-bottom: 30px;
 }
-.desc{
+.desc, .desc-founder{
   width: 100%;
   height: 300px;
   display: flex;
@@ -1033,6 +1071,10 @@ textarea:valid~label{
   align-items: center;
   text-align: center;
   overflow: hidden;
+  color: white;
+}
+.desc-founder{
+  color: black;
 }
 @media (max-width: 1024px) {
   .founders { 
@@ -1046,29 +1088,33 @@ textarea:valid~label{
   .founder-content, .founder{
     display: none;
   }
-}
-@media (max-width: 900px) {
-  .desc{
-    display: none;
+  .desc, .desc-founder{
+    height: 360px;
   }
 }
 @media (max-width: 900px) {
+  .desc, .desc-founder{
+    display: none;
+  }
   .circle-container{
     padding: 0%;
+    box-shadow: none;
   }
 }
 @media (max-width: 768px) {
   .circle-container{
     padding: 0%;
   }
+  .service-box{
+    height: 200px;
+    width: 200px;
+  }
+  
 }
 @media (max-width: 700px) {
   .founders, .circle{
     display: block;
     margin-bottom: 10px;
-  }
-  .circle-container{
-  
   }
 }
 
@@ -1077,14 +1123,9 @@ textarea:valid~label{
   align-items: center;
   justify-content: center;
 }
-.table {
-  display: table;
-  width: 100%;
-}
-table, th{
-  border-spacing: 20px;
-}
-
+/* .col-table {
+  
+} */
 .width-lg {
     width: 700px !important;
     padding-left: 100px;
@@ -1102,7 +1143,6 @@ table, th{
     background-size: cover;
     border-radius: 5px;
 }
-
 .hero-section-bb{
   width: auto;
 }
@@ -1113,6 +1153,19 @@ table, th{
 }
 @media (min-width: 600px) {
   .as-cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 1024px) {
+  .width-md{
+    padding-left: 30px;
+  }
+  .width-lg{
+    padding-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .width-lg{
+    padding-left: 50px;
+  }
 }
 
 /*FOOTER*/

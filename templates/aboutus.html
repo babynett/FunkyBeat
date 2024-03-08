@@ -103,16 +103,16 @@
           </div>
         </section>
 
-        <section class="about-us-content3" id="">
+        <section class="about-us-founders" id="">
           <div class="founder-title">
             <div class="about-us">
-              <div class="text-wrapper-as">THE FOUNDERS</div>
+              <div class="text-wrapper-founders">THE FOUNDERS</div>
             </div>
           </div>
          <div class="founders">
           <div class="circle-container">
             <div class="circle"></div>
-            <div class="desc">
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Ziera De Veyra</span>
               <span>President & Managing Director</span>
               <br>
@@ -121,7 +121,7 @@
           </div>
           <div class="circle-container">
             <div class="circle"></div>
-            <div class="desc">
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Francis De Veyra</span>
               <span>Vice President & Musical Director</span>
               <br>
@@ -130,7 +130,7 @@
           </div>
           <div class="circle-container">
             <div class="circle"></div>
-            <div class="desc">
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Emmanuel Aguila</span>
               <span>President & Manging Director</span>
               <br>
@@ -143,24 +143,26 @@
         <section class="about-us-content3" id="">
           <div class="service-title">
             <div class="about-us">
-              <div class="text-wrapper-as">OUR SERVICES</div>
+              <div class="text-wrapper-services">OUR SERVICES</div>
             </div>
           </div>
          <div class="founders">
-          <div class="circle-container">
+          <div class="service-container">
             <div class="service-box">
-              <img src="/css/assets/lili.jpg" style="height:100%; width: 100%;">
+              <img src="/css/assets/about-us/Artist 1.png" style="height:100%; width: 100%;">
             </div>
-            <div class="desc">
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Artists Management</span>
               <span>President & Managing Director</span>
               <br>
               <p>We provide professional representation and strategic guidance of artists, helping them navigate their careers by overseeing business aspects such as bookings, promotions, contracts, and overall career development. </p>
             </div>
           </div>
-          <div class="circle-container">
-            <div class="service-box"></div>
-            <div class="desc">
+          <div class="service-container">
+            <div class="service-box">
+              <img src="/css/assets/about-us/Event Management.png" style="height:100%; width: 100%;">
+            </div>
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Event Management</span>
               <span>Vice President & Musical Director</span>
               <br>
@@ -170,9 +172,11 @@
                 This includes concerts, festivals, gigs, and other live music performances.</p>
             </div>
           </div>
-          <div class="circle-container">
-            <div class="service-box"></div>
-            <div class="desc">
+          <div class="service-container">
+            <div class="service-box">
+              <img src="/css/assets/about-us/Musical and Scoring AVP.png" style="height:100%; width: 100%;">
+            </div>
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Musical Scoring for Films & AVP</span>
               <span>President & Manging Director</span>
               <br>
@@ -183,18 +187,22 @@
          <!--services 2-->
          <br><br><br>
          <div class="founders">
-          <div class="circle-container">
-            <div class="service-box"></div>
-            <div class="desc">
+          <div class="service-container">
+            <div class="service-box">
+              <img src="/css/assets/about-us/Musical Direction for Theater and Concerts.png" style="height:100%; width: 100%;">
+            </div>
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Musical Direction for Theater and Concerts</span>
               <span>President & Managing Director</span>
               <br>
               <p>Involves overseeing the musical aspects of a live performance. Rehearsing musicians, working with the cast or performers to achieve musical cohesion, and ensuring that the musical elements enhance the overall production.</p>
             </div>
           </div>
-          <div class="circle-container">
-            <div class="service-box"></div>
-            <div class="desc">
+          <div class="service-container">
+            <div class="service-box">
+              <img src="/css/assets/about-us/Musical Arranging and Composition.png" style="height:100%; width: 100%;">
+            </div>
+            <div class="desc-founder">
               <span style="font-weight: bold; font-size: 18px;">Musical Arranging and Composition </span>
               <span>Vice President & Musical Director</span>
               <br>
@@ -219,7 +227,7 @@
       </div>
     </div>
 
-          <!--CONTACT US SECTION-->
+           <!--CONTACT US SECTION-->
   <div class="contact-container">
     <div class="column" style="background-color: black;">
       <h2>Contact Information</h2>
@@ -247,7 +255,6 @@
             <label for="name">Last Name</label>
           </div>
         </div>
-
         <div class="row-input">
           <div class="input-group">
             <input type="email" id="email" required>
@@ -259,9 +266,12 @@
           </div>
         </div>
         <div class="input-group">
-          <textarea id="message" rows="8" required placeholder="Write Something..."></textarea>
+          <textarea id="message" rows="8" required></textarea>
+          <label for="number">Write Something...</label>
         </div>
-        <button class="button-27" role="button">Send Message</button>
+        <div class="btn-position">
+          <button class="button-27" role="button">Send Message</button>
+        </div>
       </form>
     </div>
   </div>
