@@ -30,6 +30,14 @@ body{
   position: sticky;
   top: 0;
 }
+#blk-contact{
+  position: sticky;
+  top: 0;
+}
+#about-us{
+  position: sticky;
+  top: 0;
+}
 #navbar2{
   background-color: #232323;
 }
@@ -847,7 +855,7 @@ img.imgoxauto {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 50%;
-  will-change: transform;
+
 }
 
 .button-27:disabled {
