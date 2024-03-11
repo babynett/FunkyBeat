@@ -16,21 +16,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
   integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
   crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--ICON LINKS-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!--SCRIPTS-->
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' rel='stylesheet' />
+  <link rel="stylesheet" href="style.css" />
   </head>
 <body>
   <header id="navbar">
     <div class="navigation-bar">
-          <div class="logo-enhanced">
-            <a href="#"><img class="img-size" src="css/assets/funkylogo.png" alt="FunkyBeat"></a>
-          </div>
-              
+            <a href="#"><img class="img-size" src="/css/assets/old_logo.png" alt="FunkyBeat"></a>
                 <ul class="nav-links">
-                  <li><a href="index.html" id="item">Home</a></li>
-                  <li><a href="templates/aboutus.html" id="item">About Us</a></li>
-                  <li><a href="templates/artists.html" id="item">Artists</a></li>
-                  <li><a href="templates/activities.html" id="item">Activities</a></li>
-                  <li><a href="templates/products.html" id="item">Products</a></li>
-                  <li><a href="templates/contact-us.html" id="item">Contact Us</a></li>
+                  <li><a href="/index.html" id="item">Home</a></li>
+                  <li><a href="/templates/aboutus.html" id="item">About Us</a></li>
+                  <li><a href="/templates/artists.html" id="item">Artists</a></li>
+                  <li><a href="/templates/activities.html" id="item">Activities</a></li>
+                  <li><a href="/templates/products.html" id="item">Products</a></li>
+                  <li><a href="/templates/contact-us.html" id="item">Contact Us</a></li>
                 </ul>
                 <!--a href button-->
                 <div class="book-now-container">
@@ -41,6 +48,7 @@
                 </div>
     </div> <!--end of navigation bar-->
   </header>
+
   <!--FIRST SECTION OF HOMEPAGE-->
   <section class="first-section" id="one">
     <div class="hero-section">
@@ -54,11 +62,9 @@
             /></span>
             <span class="text-wrapper-2">one funky beat at a time.</span>
           </p>
-          <div class="frame">
-            <div class="logo-enhanced"><a href="#" alt="Home">
-              <img class="small-logo" src="css/assets/logo-white.png" alt="small logo">
-            </a></div>
-          </div>
+        </div>
+        <div class="old_logo">
+          <a href="#" alt="Home"><img class="small-logo" src="css/assets/old_logo.png" style="height: 150px; width:150px;"></a>
         </div>
       </div>
     </div>
@@ -91,7 +97,7 @@
               </p>
     
             <div class="div-as">
-              <div class="book-now-as"><div class="text-wrapper-book"><a href="/templates/contact-us.html" style="color: black;">Book Now</a></div></div>
+              <a href="/templates/contact-us.html" class="book-now">Book Now</a>
               <div class="text-wrapper-3"><a href="/templates/aboutus.html">Learn More</a></div>
             </div>
             </div>
@@ -296,7 +302,7 @@
               that embody the spirit of Funkybeat <br>Entertainment.
               </p>
             <div class="div-as">
-              <div class="book-now-as"><div class="text-wrapper-book"><a href="/templates/products.html" style="color: black;">Shop Now</a></div></div>
+              <a href="/templates/products.html" class="book-now">Shop Now</a>
             </div>
             </div>
           </div>
@@ -317,55 +323,59 @@
     </div>
   </section>
 
-     <!--CONTACT US SECTION-->
-  <div class="contact-container">
-    <div class="column" style="background-color: black;">
-      <h2>Contact Information</h2>
-      <p>Say Something...</p>
-      <div class="contact-info">
-        <div class="info-icon"><i class="material-icons">phone</i> <p>0915 886 3390</p></div>
-        <div class="info-icon"><i class="material-icons">email</i> <p>funkybeatent@gmail.com</p></div>
-        <div class="info-icon"><i class="material-icons">home</i> <p>3 Bignay St., Project 2, Quezon City, Philippines</p></div>
+    <!--CONTACT US SECTION-->
+    <div class="contact-container">
+      <h3 style="color: black; display:flex; justify-content:center; align-items: center; padding-bottom:50px; font-weight:400;">Any question or remarks? Just write us a message!</h3>
+      <div class="column" style="background-color: black;">
+        <h2>Contact Information</h2>
+        <p>Say Something...</p>
+        <div class="contact-info">
+          <div class="info-icon"><i class="material-icons">phone</i> <p>0915 886 3390</p></div>
+          <div class="info-icon"><i class="material-icons">email</i> <p>funkybeatent@gmail.com</p></div>
+          <div class="info-icon"><i class="material-icons">home</i> <p>3 Bignay St., Project 2, Quezon City, Philippines</p></div>
+        </div>
+        <div class="contact-links">
+          <a href="#"><i class="fab fa-discord" style="font-size: 20px;"></i></a>
+          <a href="#"><i class="fab fa-twitter" style="font-size: 20px;"></i></a>
+          <a href="#"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
+        </div>
       </div>
-      <div class="contact-links">
-        <a href="#"><i class="fab fa-discord" style="font-size: 20px;"></i></a>
-        <a href="#"><i class="fab fa-twitter" style="font-size: 20px;"></i></a>
-        <a href="#"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
+      <div class="column-input-form">
+        <form autocomplete="off">
+          <div class="row-input">
+            <div class="input-group">
+              <input type="text" id="fname" required>
+              <label for="name">First Name</label>
+            </div>
+            <div class="input-group">
+              <input type="text" id="lname" required>
+              <label for="name">Last Name</label>
+            </div>
+          </div>
+          <div class="row-input">
+            <div class="input-group">
+              <input type="email" id="email" required>
+              <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+              <input type="text" id="number" required>
+              <label for="number">Phone</label>
+            </div>
+          </div>
+          <div class="input-group">
+            <textarea id="message" rows="8" required></textarea>
+            <label for="number">Write Something...</label>
+          </div>
+          <div class="btn-position">
+            <button class="button-27" role="button">Send Message</button>
+            <h5 style="color: black;">OR</h5>
+            <a href="https://www.facebook.com/FunkybeatEntertainment">
+              <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTQiIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmMWM2MzMiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTI1LDJjLTEyLjY5OTIyLDAgLTIzLDkuNjAxNTYgLTIzLDIxLjVjMCw2LjMwMDc4IDIuODk4NDQsMTIuMTk5MjIgOCwxNi4zMDA3OHY4LjgwMDc4bDguNjAxNTYsLTQuNWMyLjA5NzY2LDAuNTk3NjYgNC4xOTkyMiwwLjc5Njg4IDYuMzk4NDQsMC43OTY4OGMxMi42OTkyMiwwIDIzLC05LjU5NzY2IDIzLC0yMS41YzAsLTExLjc5Njg3IC0xMC4zMDA3OCwtMjEuMzk4NDQgLTIzLC0yMS4zOTg0NHpNMjcuMzAwNzgsMzAuNjAxNTZsLTUuODAwNzgsLTYuMjAzMTJsLTEwLjgwMDc4LDYuMTAxNTZsMTIsLTEyLjY5OTIybDUuOTAyMzQsNS44OTg0NGwxMC41LC01Ljg5ODQ0eiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg=="/>
+            </a>
+          </div>
+        </form>
       </div>
     </div>
-    <div class="column-input-form">
-      <form autocomplete="off">
-        <div class="row-input">
-          <div class="input-group">
-            <input type="text" id="fname" required>
-            <label for="name">First Name</label>
-          </div>
-          <div class="input-group">
-            <input type="text" id="lname" required>
-            <label for="name">Last Name</label>
-          </div>
-        </div>
-        <div class="row-input">
-          <div class="input-group">
-            <input type="email" id="email" required>
-            <label for="email">Email</label>
-          </div>
-          <div class="input-group">
-            <input type="text" id="number" required>
-            <label for="number">Phone</label>
-          </div>
-        </div>
-        <div class="input-group">
-          <textarea id="message" rows="8" required></textarea>
-          <label for="number">Write Something...</label>
-        </div>
-        <div class="btn-position">
-          <button class="button-27" role="button">Send Message</button>
-        </div>
-      </form>
-    </div>
-  </div>
-    
     <!--FOOTER-->
     <footer class="footer">
       <hr class="hr-line"><br><br>
@@ -400,6 +410,16 @@
        </div>
       </div>
    </footer>
- 
+
+<!--SCROLL TO TOP BUTTON-->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src="/script/script.js"></script>
 </body>
 </html>
+
+background: linear-gradient(180deg, rgb(255, 222.79, 108.59) 0%, rgb(255, 198.9, 0) 100%);
