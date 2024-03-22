@@ -1091,7 +1091,7 @@ textarea:valid~label{
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  background-color: #000 url, ('/css/assets/about-us/emmanuel.jpg');
+  background-color: #000;
 }
 .service-box{
   height: 250px;
