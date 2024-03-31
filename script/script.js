@@ -38,3 +38,47 @@ $(document).ready(function(){"use strict";
 	});
 
 })(jQuery);
+
+
+
+const form = document.querySelector("form");
+const fullName= document.getElementById("fname");
+const email= document.getElementById("email");
+const phone= document.getElementById("phone");
+const subject= document.getElementById("subject");
+const mess= document.getElementById("message");
+
+
+
+
+function sendEmail(){
+
+    const bodyMessage =`Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "boyparamio@gmail.com",
+        Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
+        To : 'boyparamio@gmail.com',
+        From : "boyparamio@gmail.com",
+        Subject : subject.value,
+        Body : bodyMessage
+    }).then(
+       // message=> alert(message)
+       message => {
+        if (message == "OK"){
+            Swal.fire({
+                title: "Thank you for sending  us a message!",
+                text: "Email is sent to the Funkybeat team",
+                icon: "success"
+              });
+            }
+       }
+    );
+}
+
+form.addEventListener("submit", (e) => {
+     e.preventDefault();
+       sendEmail();
+});
+
+// credentials username: boyparamio@gmail.com, password: 34CF023398BAC4AA82CC98254944A79FB5A0, server: smtp.elasticemail.com port: 
