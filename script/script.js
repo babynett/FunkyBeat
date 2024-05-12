@@ -57,7 +57,7 @@ function sendEmail(){
         Username : "boyparamio@gmail.com",
         Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
         To : 'boyparamio@gmail.com',
-        To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
+        //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
         From : "boyparamio@gmail.com",
         Subject : subject.value,
         Body : bodyMessage
