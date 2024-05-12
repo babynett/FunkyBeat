@@ -52,7 +52,7 @@ html{
     align-items: center;
   }
 .about-us-content-spacedog{
-    background-color: linear-gradient(rgba(39, 38, 38, 0.9), rgba(45, 45, 45, 0.9)), url('/css/assets/artists-bg/spacedog-bg.jpg'); ; 
+    background-color: linear-gradient(rgba(39, 38, 38, 0.9), rgba(45, 45, 45, 0.9)), url('/css/assets/artists-bg/spacedog-bg.jpg');
     /*background-color: #232323;*/
     background-repeat: no-repeat;
     background-position: center;
