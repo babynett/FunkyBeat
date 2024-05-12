@@ -39,26 +39,25 @@ $(document).ready(function(){"use strict";
 
 })(jQuery);
 
-
+//email form
 
 const form = document.querySelector("form");
-const fullName= document.getElementById("fname");
+const fullName= document.getElementById("name");
 const email= document.getElementById("email");
 const phone= document.getElementById("phone");
 const subject= document.getElementById("subject");
 const mess= document.getElementById("message");
 
-
-
-
 function sendEmail(){
 
     const bodyMessage =`Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
+   // const bodyMessage =`First Name: ${fname.value}<br> Last Name: ${lname.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "boyparamio@gmail.com",
         Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
         To : 'boyparamio@gmail.com',
+        To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
         From : "boyparamio@gmail.com",
         Subject : subject.value,
         Body : bodyMessage

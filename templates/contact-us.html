@@ -59,63 +59,59 @@
     </section>
 
          <!--CONTACT US SECTION-->
-  <div class="contact-container">
-    <h3 style="color: black; display:flex; justify-content:center; align-items: center; padding-bottom:50px; font-weight:400;">Any question or remarks? Just write us a message!</h3>
-    <div class="column" style="background-color: black;">
-      <h2>Contact Information</h2>
-      <p>Say Something...</p>
-      <div class="contact-info">
-        <div class="info-icon"><i class="material-icons">phone</i> <p>0915 886 3390</p></div>
-        <div class="info-icon"><i class="material-icons">email</i> <p>funkybeatent@gmail.com</p></div>
-        <div class="info-icon"><i class="material-icons">home</i> <p>3 Bignay St., Project 2, Quezon City, Philippines</p></div>
-      </div>
-      <div class="contact-links">
-        <a href="#"><i class="fab fa-discord" style="font-size: 20px;"></i></a>
-        <a href="#"><i class="fab fa-twitter" style="font-size: 20px;"></i></a>
-        <a href="#"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
-      </div>
-    </div>
-     <!-- added a function for contact us--> 
-    <section class ="contact">
-  <form action='#'>
-    <div class="column-input-form">
-      <form autocomplete="off">
-        <div class="row-input">
-          <div class="input-group">
-            <input type="text" id="fname" required>
-            <label for="name">First Name</label>
+         <div class="contact-container">
+          <h3 style="color: black; display:flex; justify-content:center; align-items: center; padding-bottom:50px; font-weight:400;">Any question or remarks? Just write us a message!</h3>
+          <div class="column" style="background-color: black;">
+            <h2>Contact Information</h2>
+            <p>Say Something...</p>
+            <div class="contact-info">
+              <div class="info-icon"><i class="material-icons">phone</i> <p>0915 886 3390</p></div>
+              <div class="info-icon"><i class="material-icons">email</i> <p>funkybeatent@gmail.com</p></div>
+              <div class="info-icon"><i class="material-icons">home</i> <p>3 Bignay St., Project 2, Quezon City, Philippines</p></div>
+            </div>
+            <div class="contact-links">
+              <a href="#"><i class="fab fa-discord" style="font-size: 20px;"></i></a>
+              <a href="#"><i class="fab fa-twitter" style="font-size: 20px;"></i></a>
+              <a href="#"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
+            </div>
           </div>
-          <div class="input-group">
-            <input type="text" id="lname" required>
-            <label for="name">Last Name</label>
+          <div class="column-input-form">
+            <!--SECTION FOR EMAIL-->
+            <form autocomplete="off">
+              <div class="row-input">
+                <div class="input-group">
+                  <input type="text" id="name" required>
+                  <label for="name">Full Name</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" id="subject" required>
+                  <label for="name">Subject</label>
+                </div>
+              </div>
+              <div class="row-input">
+                <div class="input-group">
+                  <input type="email" id="email" required>
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" id="phone" required>
+                  <label for="number">Phone</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="number">Write Something...</label>
+              </div>
+              <div class="btn-position">
+                <button class="button-27" role="button">Send Message</button>
+                <h5 style="color: black;">OR</h5>
+                <a href="https://www.facebook.com/FunkybeatEntertainment">
+                  <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTQiIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmMWM2MzMiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTI1LDJjLTEyLjY5OTIyLDAgLTIzLDkuNjAxNTYgLTIzLDIxLjVjMCw2LjMwMDc4IDIuODk4NDQsMTIuMTk5MjIgOCwxNi4zMDA3OHY4LjgwMDc4bDguNjAxNTYsLTQuNWMyLjA5NzY2LDAuNTk3NjYgNC4xOTkyMiwwLjc5Njg4IDYuMzk4NDQsMC43OTY4OGMxMi42OTkyMiwwIDIzLC05LjU5NzY2IDIzLC0yMS41YzAsLTExLjc5Njg3IC0xMC4zMDA3OCwtMjEuMzk4NDQgLTIzLC0yMS4zOTg0NHpNMjcuMzAwNzgsMzAuNjAxNTZsLTUuODAwNzgsLTYuMjAzMTJsLTEwLjgwMDc4LDYuMTAxNTZsMTIsLTEyLjY5OTIybDUuOTAyMzQsNS44OTg0NGwxMC41LC01Ljg5ODQ0eiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg=="/>
+                </a>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="row-input">
-          <div class="input-group">
-            <input type="email" id="email" required>
-            <label for="email">Email</label>
-          </div>
-          <div class="input-group">
-            <input type="text" id="number" required>
-            <label for="number">Phone</label>
-          </div>
-        </div>
-        <div class="input-group">
-          <textarea id="message" rows="8" required></textarea>
-          <label for="number">Write Something...</label>
-        </div>
-        <div class="btn-position">
-          <button class="button-27" role="button">Send Message</button>
-          <h5 style="color: black;">OR</h5>
-          <a href="http://m.me/FunkybeatEntertainment" target="_blank" >
-            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTQiIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmMWM2MzMiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTI1LDJjLTEyLjY5OTIyLDAgLTIzLDkuNjAxNTYgLTIzLDIxLjVjMCw2LjMwMDc4IDIuODk4NDQsMTIuMTk5MjIgOCwxNi4zMDA3OHY4LjgwMDc4bDguNjAxNTYsLTQuNWMyLjA5NzY2LDAuNTk3NjYgNC4xOTkyMiwwLjc5Njg4IDYuMzk4NDQsMC43OTY4OGMxMi42OTkyMiwwIDIzLC05LjU5NzY2IDIzLC0yMS41YzAsLTExLjc5Njg3IC0xMC4zMDA3OCwtMjEuMzk4NDQgLTIzLC0yMS4zOTg0NHpNMjcuMzAwNzgsMzAuNjAxNTZsLTUuODAwNzgsLTYuMjAzMTJsLTEwLjgwMDc4LDYuMTAxNTZsMTIsLTEyLjY5OTIybDUuOTAyMzQsNS44OTg0NGwxMC41LC01Ljg5ODQ0eiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg=="/>
-          </a>
-        </div>
-      </form>
-    </div>
-  </div>
-</form>
-</section>
   <!--FOOTER-->
   <footer class="footer">
     <hr class="hr-line"><br><br>
@@ -156,9 +152,6 @@
   </svg>
 </div>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="/script/script.js"></script>
-
 </body>
 </html>
