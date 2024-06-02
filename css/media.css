@@ -1,6 +1,6 @@
 /*RESPONSIVE*/
 
-@media only screen and (max-width: 1180px){
+@media only screen and (max-width: 768px){
     .book-now-container{
         display: none;
     }
