@@ -1,4 +1,10 @@
 /*RESPONSIVE*/
+.contact {
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    justify-content: space-between; /* Maintain spacing */
+    margin-bottom: 20px;  /* Add some margin for better readability */
+}
 @media only screen and (max-width: 1180px){
     .book-now-container{
         display: none;
@@ -7,8 +13,5 @@
         display: flex;
         justify-content: space-between;
     }
-    .contact{
-        display: flex;
-        justify-content: space-between;
-    }
+    
 }
