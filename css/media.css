@@ -10,9 +10,13 @@
     }
     .contact {
         display: flex;
-        flex-direction: column;  /* Stack elements vertically */
-        justify-content: space-between; /* Maintain spacing */
-        margin-bottom: 20px;  /* Add some margin for better readability */
+        
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
     }
     
 }
