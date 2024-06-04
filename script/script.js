@@ -56,7 +56,7 @@ function sendEmail(){
         Host : "smtp.elasticemail.com",
         Username : "boyparamio@gmail.com",
         Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
-        To : '202010809@fit.edu.ph',
+        To : 'funkybeatent@gmail.com',
         //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
         From : "boyparamio@gmail.com",
         Subject : subject.value,
