@@ -56,9 +56,9 @@ function sendEmail(){
         Host : "smtp.elasticemail.com",
         Username : "boyparamio@gmail.com",
         Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
-        To : 'funkybeatent@gmail.com',
+        To : 'boyparamio@gmail.com',
         //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
-        From : "boyparamio@gmail.com",
+        From : "smtp.elasticemail.com",
         Subject : subject.value,
         Body : bodyMessage
     }).then(
