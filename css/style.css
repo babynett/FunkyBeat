@@ -359,6 +359,7 @@ body{
     padding: 10px;
 
 }
+
   
 .hero-section-as .FUNKYBEAT {
   font-family: 'Days One', sans-serif;
@@ -789,13 +790,13 @@ img.imgoxauto {
   padding: 30px;
 } */
 
-.myflex-item-left{
+/* .myflex-item-left{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
-}
+} */
 
 .clickable-card{
   background-color: #fff;
@@ -904,6 +905,24 @@ img.imgoxauto {
 @media screen and (max-width: 600px) {
   .column, .column-input-form {
     width: 100%;
+  }
+  .button-27{
+    display:block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .button-27{
+    display:block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .btn-position{
+    display: flex;
+    flex-direction: row;
+  }
+  .button-27{
   }
 }
 .column-input-form{
@@ -1165,7 +1184,6 @@ textarea:valid~label{
 } */
 .width-lg {
     width: 700px !important;
-    padding-left: 100px;
 }
 .width-lg-2 {
   width: 700px !important;
