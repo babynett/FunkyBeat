@@ -927,19 +927,7 @@ img.imgoxauto {
       flex-direction: column; /* Stack buttons vertically */
       
   }
-  .nav-links {
-    display: none; /* Hide navigation links */
-    flex-direction: column; /* Stack links vertically */
-    width: 100%; /* Full width */
-}
-
-.nav-links.active {
-    display: flex; /* Show links when active */
-}
-
-.navigation-bar .toggle-btn {
-    display: block; /* Show toggle button */
-}
+  
 
   .column {
       width: 100%; /* Full width for mobile */
