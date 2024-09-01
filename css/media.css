@@ -1,6 +1,6 @@
 /* RESPONSIVE */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .book-now-container {
         display: none;
     }
@@ -16,7 +16,9 @@
         flex-direction: column; /* Stack elements for better spacing */
         align-items: flex-start; /* Align items to the start */
     }
-
+    .contact-container:after {
+        display:none
+    }
     .input-group {
         display: flex;
         flex-direction: column;

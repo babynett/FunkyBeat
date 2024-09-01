@@ -903,26 +903,37 @@ img.imgoxauto {
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, .column-input-form {
-    width: 100%;
+  .contact-info {
+      padding: 50px 0; /* Less padding for small screens */
+      gap: 20px; /* Reduce gap */
   }
-  .button-27{
-    display:block;
-    width: 100%;
+
+  .button-27 {
+      width: 100%; /* Full-width button */
   }
 }
 @media screen and (max-width: 1024px) {
-  .button-27{
-    display:block;
-    width: 100%;
+  .column {
+      width: 100%; /* Stack columns on medium screens */
+      padding: 30px; /* Reduce padding for better spacing */
+  }
+
+  .button-27 {
+      width: 100%; /* Full-width button for medium screens */
   }
 }
-@media screen and (max-width: 768px){
-  .btn-position{
-    display: flex;
-    flex-direction: row;
+@media screen and (max-width: 768px) {
+  .btn-position {
+      flex-direction: column; /* Stack buttons vertically */
   }
-  .button-27{
+
+  .column {
+      width: 100%; /* Full width for mobile */
+      padding: 20px; /* Less padding for mobile */
+  }
+
+  .input-group {
+      margin-bottom: 15px; /* Reduce bottom margin */
   }
 }
 .column-input-form{
