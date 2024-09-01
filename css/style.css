@@ -926,15 +926,6 @@ img.imgoxauto {
   .btn-position {
       flex-direction: column; /* Stack buttons vertically */
   }
-  .nav-links{
-    display: none; /* Hide links by default on small screens */
-    flex-direction: column; /* Stack links vertically */
-    width: 100%; /* Full width */
-    background-color: #232323; /* Background color for the dropdown */
-    position: absolute; /* Position it absolutely */
-    top: 100%; /* Position below the navbar */
-    left: 0;
-  }
 
   .column {
       width: 100%; /* Full width for mobile */
