@@ -65,6 +65,16 @@
     .nav-links.active {
         display: flex; /* Show links when active */
     }
+    .toggle-btn {
+        display: block; /* Show toggle button on small screens */
+        cursor: pointer; /* Change cursor to pointer */
+    }
+
+    /* Adjust navbar layout */
+    .navigation-bar {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
 
 }
 @media only screen and (max-width: 600px) {
@@ -83,6 +93,16 @@
     }
     .nav-links.active {
         display: flex; /* Show links when active */
+    }
+    .toggle-btn {
+        display: block; /* Show toggle button on small screens */
+        cursor: pointer; /* Change cursor to pointer */
+    }
+
+    /* Adjust navbar layout */
+    .navigation-bar {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the left */
     }
 
 
