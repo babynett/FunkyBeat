@@ -62,6 +62,9 @@
         top: 100%; /* Position below the navbar */
         right: 0;
     }
+    .nav-links.active {
+        display: flex; /* Show links when active */
+    }
 
 }
 @media only screen and (max-width: 600px) {
@@ -77,6 +80,9 @@
         position: absolute; /* Position it absolutely */
         top: 100%; /* Position below the navbar */
         right: 0;
+    }
+    .nav-links.active {
+        display: flex; /* Show links when active */
     }
 
 
