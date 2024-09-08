@@ -1,6 +1,11 @@
-document.querySelector('.toggle-btn').addEventListener('click', function() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active'); // Toggles the visibility of the nav links
+// Get the toggle button and nav links elements
+const toggleBtn = document.querySelector('.toggle-btn');
+const navLinks = document.querySelector('.nav-links');
+
+// Add an event listener to the toggle button
+toggleBtn.addEventListener('click', () => {
+  // Toggle the .active class on the nav links
+  navLinks.classList.toggle('active');
 });
 
 
