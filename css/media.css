@@ -26,7 +26,7 @@
         background-color: #232323; /* Background color for dropdown */
         position: absolute; /* Position it absolutely */
         top: 100%; /* Position below the navbar */
-        left: 0;
+        right: 0;
     }
 
     .nav-links.active {
@@ -47,7 +47,37 @@
 
 /* Additional styles for even smaller screens */
 @media only screen and (max-width: 480px) {
+    .book-now-container {
+        display: none; /* Hide "Book Now" button on smaller screens */
+    }
     .nav-links {
         padding: 10px; /* Add some padding for mobile */
     }
+    .nav-links {
+        display: none; /* Hide nav links by default */
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Full width for dropdown */
+        background-color: #232323; /* Background color for dropdown */
+        position: absolute; /* Position it absolutely */
+        top: 100%; /* Position below the navbar */
+        right: 0;
+    }
+
 }
+@media only screen and (max-width: 600px) {
+
+    .book-now-container {
+        display: none; /* Hide "Book Now" button on smaller screens */
+    }
+    .nav-links {
+        display: none; /* Hide nav links by default */
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Full width for dropdown */
+        background-color: #232323; /* Background color for dropdown */
+        position: absolute; /* Position it absolutely */
+        top: 100%; /* Position below the navbar */
+        right: 0;
+    }
+
+
+     }
