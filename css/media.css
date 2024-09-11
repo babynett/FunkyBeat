@@ -77,16 +77,6 @@
         font-size: 14px;
         padding: 10px 20px;
       }
-      .exit-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 18px;
-        cursor: pointer;
-    }
-    .exit-btn:hover {
-        color: #666;
-    }
 }
 
 /* Additional styles for even smaller screens */
@@ -96,29 +86,6 @@
     }
     .nav-links {
         padding: 10px; /* Add some padding for mobile */
-    }
-    .nav-links {
-        display: none; /* Hide nav links by default */
-        flex-direction: column; /* Stack links vertically */
-        width: 100%; /* Full width for dropdown */
-        background-color: #232323; /* Background color for dropdown */
-        position: absolute; /* Position it absolutely */
-        top: 100%; /* Position below the navbar */
-        right: 0;
-    }
-    .nav-links.active {
-        display: flex; /* Show links when active */
-        flex-direction: column; /* Stack links vertically */
-    }
-    .toggle-btn {
-        display: block; /* Show toggle button on small screens */
-        cursor: pointer; /* Change cursor to pointer */
-    }
-
-    /* Adjust navbar layout */
-    .navigation-bar {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: flex-start; /* Align items to the left */
     }
     .column-input-form {
         padding: 10px;
@@ -136,20 +103,9 @@
         font-size: 12px;
         padding: 10px 15px;
       }
-      .exit-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 18px;
-        cursor: pointer;
-    }
-    .exit-btn:hover {
-        color: #666;
-    }
-
 }
-@media only screen and (max-width: 600px) {
 
+@media only screen and (max-width: 600px) {
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
@@ -192,60 +148,4 @@
         font-size: 13px;
         padding: 10px 18px;
       }
-      .exit-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 18px;
-        cursor: pointer;
-    }
-    .exit-btn:hover {
-        color: #666;
-    }
-
-
-     }
-
-     @media only screen and (max-width: 480px) {
-        .book-now-container {
-            display: none; /* Hide "Book Now" button on smaller screens */
-        }
-        .nav-links {
-            display: none; /* Hide nav links by default */
-            flex-direction: column; /* Stack links vertically */
-            width: 100%; /* Full width for dropdown */
-            background-color: #232323; /* Background color for dropdown */
-            position: absolute; /* Position it absolutely */
-            top: 100%; /* Position below the navbar */
-            right: 0;
-        }
-        .nav-links.active {
-            display: flex; /* Show links when active */
-            flex-direction: column; /* Stack links vertically */
-        }
-        .toggle-btn {
-            display: block; /* Show toggle button on small screens */
-            cursor: pointer; /* Change cursor to pointer */
-        }
-        .column-input-form {
-            padding: 10px;
-          }
-        
-          input, textarea {
-            font-size: 11px;
-          }
-        
-          label {
-            font-size: 11px;
-          }
-        
-          .button-27 {
-            font-size: 11px;
-            padding: 10px 12px;
-          }
-          .exit-btn {
-            top: 5px;
-            right: 5px;
-            font-size: 14px;
-        }
-     }
+}
