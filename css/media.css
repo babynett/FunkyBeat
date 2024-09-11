@@ -16,8 +16,12 @@
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .img-size {
-        display: none;
-    }
+        /* Styles for screens with max-width 768px */
+        height: 150px;
+        width: auto;
+        padding: 0 5px;
+        margin: 0 10px;
+      }
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
@@ -85,8 +89,12 @@
 /* Additional styles for even smaller screens */
 @media only screen and (max-width: 480px) {
     .img-size {
-        display: none;
-    }
+        /* Styles for screens with max-width 480px */
+        height: 80px;
+        width: auto;
+        padding: 0 1px;
+        margin: 0 2px;
+      }
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
@@ -113,8 +121,12 @@
 
 @media only screen and (max-width: 600px) {
     .img-size {
-        display: none;
-    }
+        /* Styles for screens with max-width 600px */
+        height: 100px;
+        width: auto;
+        padding: 0 2px;
+        margin: 0 5px;
+      }
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
