@@ -110,3 +110,26 @@
 
 
      }
+
+     @media only screen and (max-width: 420px) {
+        .book-now-container {
+            display: none; /* Hide "Book Now" button on smaller screens */
+        }
+        .nav-links {
+            display: none; /* Hide nav links by default */
+            flex-direction: column; /* Stack links vertically */
+            width: 100%; /* Full width for dropdown */
+            background-color: #232323; /* Background color for dropdown */
+            position: absolute; /* Position it absolutely */
+            top: 100%; /* Position below the navbar */
+            right: 0;
+        }
+        .nav-links.active {
+            display: flex; /* Show links when active */
+            flex-direction: column; /* Stack links vertically */
+        }
+        .toggle-btn {
+            display: block; /* Show toggle button on small screens */
+            cursor: pointer; /* Change cursor to pointer */
+        }
+     }
