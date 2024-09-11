@@ -1,13 +1,14 @@
-// Get the toggle button and nav links elements
+const navbar = document.querySelector('.nav-links');
 const toggleBtn = document.querySelector('.toggle-btn');
-const navLinks = document.querySelector('.nav-links');
+const exitBtn = document.querySelector('.exit-btn');
 
-// Add an event listener to the toggle button
 toggleBtn.addEventListener('click', () => {
-  // Toggle the .active class on the nav links
-  navLinks.classList.toggle('active');
+    navbar.classList.toggle('active');
 });
 
+exitBtn.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
 
 
 
