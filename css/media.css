@@ -44,6 +44,39 @@
         flex-direction: column; /* Stack elements vertically */
         align-items: flex-start; /* Align items to the left */
     }
+    .column-input-form {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+    
+      .input-group {
+        margin-bottom: 20px;
+      }
+    
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+      }
+    
+      label {
+        font-size: 14px;
+      }
+    
+      .row-input {
+        flex-direction: column;
+      }
+    
+      .row-input .input-group {
+        flex-basis: 100%;
+      }
+    
+      .button-27 {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 20px;
+      }
 }
 
 /* Additional styles for even smaller screens */
@@ -77,6 +110,22 @@
         flex-direction: column; /* Stack elements vertically */
         align-items: flex-start; /* Align items to the left */
     }
+    .column-input-form {
+        padding: 10px;
+      }
+    
+      input, textarea {
+        font-size: 12px;
+      }
+    
+      label {
+        font-size: 12px;
+      }
+    
+      .button-27 {
+        font-size: 12px;
+        padding: 10px 15px;
+      }
 
 }
 @media only screen and (max-width: 600px) {
@@ -107,6 +156,22 @@
         flex-direction: column; /* Stack elements vertically */
         align-items: flex-start; /* Align items to the left */
     }
+    .column-input-form {
+        padding: 15px;
+      }
+    
+      input, textarea {
+        font-size: 13px;
+      }
+    
+      label {
+        font-size: 13px;
+      }
+    
+      .button-27 {
+        font-size: 13px;
+        padding: 10px 18px;
+      }
 
 
      }
@@ -132,4 +197,20 @@
             display: block; /* Show toggle button on small screens */
             cursor: pointer; /* Change cursor to pointer */
         }
+        .column-input-form {
+            padding: 10px;
+          }
+        
+          input, textarea {
+            font-size: 11px;
+          }
+        
+          label {
+            font-size: 11px;
+          }
+        
+          .button-27 {
+            font-size: 11px;
+            padding: 10px 12px;
+          }
      }
