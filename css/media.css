@@ -15,6 +15,9 @@
 
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
+    .img-size {
+        display: none;
+    }
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
@@ -81,6 +84,9 @@
 
 /* Additional styles for even smaller screens */
 @media only screen and (max-width: 480px) {
+    .img-size {
+        display: none;
+    }
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
@@ -106,6 +112,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .img-size {
+        display: none;
+    }
     .book-now-container {
         display: none; /* Hide "Book Now" button on smaller screens */
     }
