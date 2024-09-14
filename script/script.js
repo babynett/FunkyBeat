@@ -67,14 +67,14 @@ function sendEmail(){
    // const bodyMessage =`First Name: ${fname.value}<br> Last Name: ${lname.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
     Email.send({
         Host : "smtp.hostinger.com",
-        Username : "official_admin@itaminvisportsfest.com",
-        Password : "FEUTech@1234",
-        To : 'official_admin@itaminvisportsfest.com',
+        Username : "funkybeatent@gmail.com",
+        Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
+        To : 'funkybeatent@gmail.com',
         //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
-        From : "official_admin@itaminvisportsfest.com",
+        From : "funkybeatent@gmail.com",
         Subject : subject.value,
         Body : bodyMessage,
-		Port: 465 // Add this line
+		
     }).then(
        // message=> alert(message)
        message => {
