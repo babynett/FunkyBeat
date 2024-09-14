@@ -66,10 +66,10 @@ function sendEmail(){
     const bodyMessage =`Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
    // const bodyMessage =`First Name: ${fname.value}<br> Last Name: ${lname.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
     Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "boyparamio@gmail.com",
-        Password : "34CF023398BAC4AA82CC98254944A79FB5A0",
-        To : 'boyparamio@gmail.com',
+        Host : "smtp.hostinger.com",
+        Username : "official_admin@itaminvisportsfest.com",
+        Password : "FEUTech@1234",
+        To : 'official_admin@itaminvisportsfest.com',
         //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
         From : "boyparamio@gmail.com",
         Subject : subject.value,
