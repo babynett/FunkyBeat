@@ -71,7 +71,7 @@ function sendEmail(){
         Password : "FEUTech@1234",
         To : 'official_admin@itaminvisportsfest.com',
         //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
-        From : "boyparamio@gmail.com",
+        From : "official_admin@itaminvisportsfest.com",
         Subject : subject.value,
         Body : bodyMessage
     }).then(
