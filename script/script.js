@@ -73,7 +73,8 @@ function sendEmail(){
         //To : 'fjgoodgirl@gmail.com', //funkybeatent@gmail.com
         From : "official_admin@itaminvisportsfest.com",
         Subject : subject.value,
-        Body : bodyMessage
+        Body : bodyMessage,
+		Port: 465 // Add this line
     }).then(
        // message=> alert(message)
        message => {
