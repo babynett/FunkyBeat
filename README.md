@@ -4,7 +4,16 @@ This is a multi-section landing website built for **Funkybeat Entertainment**, a
 
 This project was developed collaboratively, with **Faye handling the frontend development** using **HTML, CSS, and JavaScript**.
 
----
+Overview of the project:
+
+![image](https://github.com/user-attachments/assets/e20ea468-34a4-47fd-9ea2-009ae22ac422)
+![image](https://github.com/user-attachments/assets/d6adcd3d-84f0-4d94-be00-881e381031dd)
+![image](https://github.com/user-attachments/assets/10c1cb03-b2ec-4994-ae21-6678cc2becda)
+![image](https://github.com/user-attachments/assets/bf25aa90-1aec-46e2-855e-0f76efbac3cf)
+![image](https://github.com/user-attachments/assets/c2c42ab1-352b-4dd8-866b-848934e13fbb)
+
+
+
 
 ## 🌟 Overview
 
